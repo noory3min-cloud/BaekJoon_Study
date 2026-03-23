@@ -1,0 +1,17 @@
+A, B, C= map(int, input().split())
+
+if(A == B == C):
+    print(10000 + A * 1000)
+elif(A == B):
+    print(1000 + A * 100)
+elif(A == C):
+    print(1000 + A * 100)
+elif(B == C):
+    print(1000 + B * 100)
+else:
+    if((A>B) & (A>C)):
+        print(100 * A)
+    if((B>A) & (B>C)):
+        print(100 * B)
+    if((C>A) & (C>B)):
+        print(100 * C)
