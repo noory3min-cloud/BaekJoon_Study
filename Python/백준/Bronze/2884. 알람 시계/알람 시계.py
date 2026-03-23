@@ -9,4 +9,4 @@ else:
     else:
         H = 23
 
-print(str(H) + " " + str(M))
+print(H,M)
